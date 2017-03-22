@@ -1,0 +1,12 @@
+#ifndef Header_H
+#define Header_H
+#include <string>
+using namespace std;
+
+int* doubleCapacity(const int*list, int size) {
+	int *newList = new int[2 * size];
+	return newList;
+}
+
+
+#endif
