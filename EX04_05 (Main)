@@ -1,0 +1,19 @@
+#include <iostream>
+#include "Header.h"
+using namespace std;
+
+int main() {
+	Course c; // Call from the header and name it c
+	c.addStudent("Clark"); // Add Superman
+	c.addStudent("Biaggio"); // Add Biaggio (Kings of Summer)
+	c.addStudent("Sherlock"); // Add Sherlock Holmes
+
+	c.dropStudent("Clark"); // Clark drops out
+	for (int i = 0; i < c.getNumberOfStudents(); i++)
+	{
+		cout << *(c.getStudents() + i) << endl;
+	}
+	int i;
+	cin >> i;
+	return 0;
+}
