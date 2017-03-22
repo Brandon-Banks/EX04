@@ -2,7 +2,8 @@
 #include "Header.h"
 using namespace std;
 
-int main() {
+int main()
+{
 	Course c; // Call from the header and name it c
 	c.addStudent("Clark"); // Add Superman
 	c.addStudent("Biaggio"); // Add Biaggio (Kings of Summer)
