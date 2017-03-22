@@ -10,7 +10,7 @@ int main ()
         if ( array[i] < smallest )
              smallest = array[i] ;
 
-    cout << smallest << '\n' ;
+    cout << smallest << endl;
 
     return 0;
 }
