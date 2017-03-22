@@ -1,0 +1,21 @@
+#include <iostream>
+#include "Header.h"
+using namespace std;
+
+int* doubleCapacity(const int*list, int size);
+
+int main() 
+{
+	int ArraySize;
+	cin >> ArraySize;
+	int* TheArray = new int[ArraySize];
+	int *NewArray = doubleCapacity(TheArray, ArraySize);
+
+	return 0;
+}
+
+int* doubleCapacity(const int*Array, int ArrayAmount) 
+{
+	int *newestArray = new int[2 * ArrayAmount];
+	return newestArray;
+}
