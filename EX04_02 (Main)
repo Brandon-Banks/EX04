@@ -14,8 +14,3 @@ int main()
 	return 0;
 }
 
-int* doubleCapacity(const int*Array, int ArrayAmount) 
-{
-	int *newestArray = new int[2 * ArrayAmount];
-	return newestArray;
-}
